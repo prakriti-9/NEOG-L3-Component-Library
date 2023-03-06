@@ -1,0 +1,26 @@
+body{
+    color: darkgrey
+}
+
+h1{
+    color: black
+}
+
+h2{
+    color: darkmagenta
+}
+
+h3{
+    color: darkgreen
+}
+
+/* styling using an ID */
+#smol{
+    color:crimson
+}
+
+
+/* styling using a class */
+.paras{
+    color:brown
+} 

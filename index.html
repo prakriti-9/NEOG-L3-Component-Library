@@ -5,20 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- to keep it every devide friendly -->
     <title>COMPONENT LIBRARY</title>
+    <!-- CSS 1st was of styling : <style> body{color: #be185d;}</style> -->
+
+    <!-- CSS 3rd way of styling : external link -->
+    <link href = "styles.css" rel="stylesheet"/>
 </head>
 <body>
+    <!-- CSS 2nd way of styling : style = "color: red"-->
     <h1>Prakriti's Component Library</h1>
-    <p>I am following neog camp's coding classes and completing levelZero assignments daily.</p>
-    <p>I am creating this component library to better design each element.</p>
-    <p>After creating this library I am going to use the components in my <b>portfolio, blog and all projects</b> 
+    <p class="paras">I am following neog camp's coding classes and completing levelZero assignments daily.</p>
+    <p class="paras">I am creating this component library to better design each element.</p>
+    <p class="paras">After creating this library I am going to use the components in my <b>portfolio, blog and all projects</b> 
         created. This will ensure that all my projects have a <b>consistent theming and styling</b>.</p>
         <hr> <!--  thematic break -->
 
     <h2>@typography</h2>
     <h1>Biggest heading h1</h1>
     <h2>Second biggest heading h2</h2>
-    <p>This is the mormal text. Long running text would look like this on your website. This will AUTOFOLD based on the width.</p>
-    <small>This is relatively smaller text.</small>
+    <p class="paras">This is the mormal text. Long running text would look like this on your website. This will AUTOFOLD based on the width.</p>
+    <small id="smol">This is relatively smaller text.</small>
 
     <hr>
 
@@ -32,7 +37,7 @@
 
     <hr>
 
-    <h2>@links</h2>
+    <h2>@links using a (hypertext reference) href = "/" inside ANCHOR TAG</h2>
     <a href ="/">Primary link</a> 
     <a href ="/">Secondary Link</a>
     <hr>
