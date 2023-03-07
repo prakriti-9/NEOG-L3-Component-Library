@@ -12,7 +12,7 @@ body{
 }
 
 .container{
-    padding-left: 1rem; padding-right: 1 rem ;
+    padding-left: 1rem; padding-right: 1rem ;
 }
 
 .container-centre{
@@ -22,50 +22,81 @@ body{
 
 /* links */
 .link{
+    margin: 1rem;
     text-decoration: none;
-    padding: 1rem, 1rem ;
-    color:#d4d2d2
 }
-.primary-link{
-    background-color: #eb2b91;
-    border: 0.15rem outset #d631a2;
-    border-radius: 0.25rem;
-}
-
-.secondary-link{
-    color: black;
-    border: 0.05rem solid #d631a2;
-    border-radius: 0.20rem;
-    
+.link-primary{
+    padding: 0.5rem;
+    background-color: #1b1a1a;
+    border-radius: 0.5rem;
+    color: #be185d;
 }
 
+.link-secondary{
+    color: #be185d;
+}
+
+hr{
+    margin-top: 1.5rem;
+}
+
+
+/* LIST-bullets */
 .no-bullets{
     list-style: none
 }
-
 .inline{
-    display: inline ;
+    margin-right: 1.5rem;
+    display: inline;
+}
+.reverse{
+    margin-left: 2rem;
 }
 
 
 /* navigation */
-
+.nav-text{
+    margin-bottom: 2rem;
+}
 .navigation{
-    background-color: #730e3ac1;
+    background-color: #be185d;
+    margin: 1rem;
+    border-bottom-left-radius: 2rem;        
+}
+.navigation-brand{
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.navi-list{
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
+.navi-no-bullets{
     color: white;
+    list-style: none;
+    text-decoration: none;
+    }
+
+.nav-current{
+    font-weight: bold;
+}    
+
+/* HEADER */
+
+.hero{
     padding: 1rem;
 }
-
-.navpills{
-    text-align: right;
+.hero-image{
+    display: block;
+    margin: auto;
+    max-width: 50%;
 }
-
-.brand{
+.hero-text{
+    text-align: center;
     font-weight: bold;
-    font-size: 1.1rem;
+    color: #2F2E40;
+    font-size: x-large;
 }
-
-.link-active{
-    font-weight: bolder;
-}
-

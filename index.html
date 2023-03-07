@@ -41,11 +41,17 @@
 
     <hr>
 
-    <h2>@links using a (hypertext reference) href = "/" inside ANCHOR TAG</h2>
-    <a class="link primary-link"; href ="/">Primary link</a> 
-    <a class="link secondary-link";  href ="/">Secondary Link</a>
+
+    <!-- LINKS -->
+    <h2>@links</h2>
+
+    <div class="link text">using a (hypertext reference) href = "/" inside ANCHOR TAG</div>
+    <a class="link link-primary"; href ="/">Primary link</a> 
+    <a class="link link-secondary";  href ="/">Secondary Link</a>
     <hr>
     
+
+    <!-- LISTS -->
     <h2>@lists</h2>
 
     <h3>Unordered list</h3>
@@ -58,42 +64,49 @@
 
     <h3>Unordered inline lists</h3>
     <div>No new row, items will take columns.</div>
-    <ul class="inline">
-        <li>Inline first item</li>
-        <li>Inline second item</li>
-        <li>Inline third item</li>
+    <ul class="no-bullets">
+        <li class="inline">Inline first item</li>
+        <li class="inline">Inline second item</li>
+        <li class="inline">Inline third item</li>
     </ul>
 
     <h3>Reverse ordered list</h3>
-    <ol reversed>
+    <ol reversed class="reverse">
         <li>Item 3</li>
-        <li>item 2</li>
-        <li>Utem 1</li>
+        <li>Item 2</li>
+        <li>Item 1</li>
     </ol>
     <hr>
 
+    <!-- NAVIGATION -->
     <h2>@nav</h2>
 
-    <div>Navigation is on the top of the page and used to get to diff pages</div>
-    <nav class="navigation">
-        <div class="brand">iAmBrandName</div>
-        <ul class="no-bullets inline navpills">
-            <li><a class="link link-active" href = '/'>Home</a></li>
-            <li><a class="link" href ='/'>Projects</a></li>
-            <li><a class="link" href ='/'>Blogs</a></li>
+    <div class= "container nav-text"> Navigation is on the top of the page and used to get to diff pages</div>
+
+    <nav class="navigation container ">
+        <div class="navigation-brand"> iAmBrandName</div>
+        <ul class="navi-list">
+            <li class="inline"><a class="nav-current navi-no-bullets" href = '/'>Home</a></li>
+            <li class="inline"><a class="navi-no-bullets" href ='/'>Projects</a></li>
+            <li class="inline"><a class="navi-no-bullets" href ='/'>Blogs</a></li>
         </ul>
     </nav>
 
+    <hr>
+
+
+    <!-- HEADER -->
     <h2>@header with image</h2>
-    <header>
-        <img src="images/hero.svg"/>
-        <header>Heading inside header</header>
+    <header class="hero">
+        <img class="hero-image" src="images/hero.svg"/>
+        <header class="hero-text">Learning to become a <span style="color: #be185d">web developer</span></header>
     </header>
 
 
+    <!-- SECTION -->
     <h2>@sections</h2>
 
-    <section>
+    <section class="section">
         <h3>white section</h3>
         <p>This will have a white background.</p>
 
