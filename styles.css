@@ -23,17 +23,49 @@ body{
 /* links */
 .link{
     text-decoration: none;
-    padding: 3rem, 3rem ;
+    padding: 1rem, 1rem ;
+    color:#d4d2d2
 }
 .primary-link{
-    color: black;
     background-color: #eb2b91;
     border: 0.15rem outset #d631a2;
     border-radius: 0.25rem;
 }
 
 .secondary-link{
+    color: black;
     border: 0.05rem solid #d631a2;
     border-radius: 0.20rem;
-    color:black
+    
 }
+
+.no-bullets{
+    list-style: none
+}
+
+.inline{
+    display: inline ;
+}
+
+
+/* navigation */
+
+.navigation{
+    background-color: #730e3ac1;
+    color: white;
+    padding: 1rem;
+}
+
+.navpills{
+    text-align: right;
+}
+
+.brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.link-active{
+    font-weight: bolder;
+}
+

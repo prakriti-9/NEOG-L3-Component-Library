@@ -50,7 +50,7 @@
 
     <h3>Unordered list</h3>
     <div>If we dont want to show bullets, we can remove it in css.</div>
-    <ul>
+    <ul class="no-bullets">
         <li>Unordered list one</li>
         <li>Unordered list two</li>
         <li>Unordered list three</li>
@@ -58,27 +58,29 @@
 
     <h3>Unordered inline lists</h3>
     <div>No new row, items will take columns.</div>
-    <ul>
+    <ul class="inline">
         <li>Inline first item</li>
         <li>Inline second item</li>
         <li>Inline third item</li>
     </ul>
 
     <h3>Reverse ordered list</h3>
-    <ul>
+    <ol reversed>
         <li>Item 3</li>
         <li>item 2</li>
         <li>Utem 1</li>
-    </ul>
+    </ol>
     <hr>
+
     <h2>@nav</h2>
-    <div>Navigatpion is on the top of the page and used to get to diff pages</div>
-    <nav>
-        <div>iAmBrandName</div>
-        <ul>
-            <li><a href = '/'>Home</a></li>
-            <li><a href ='/'>Projects</a></li>
-            <li><a href ='/'>Blogs</a></li>
+
+    <div>Navigation is on the top of the page and used to get to diff pages</div>
+    <nav class="navigation">
+        <div class="brand">iAmBrandName</div>
+        <ul class="no-bullets inline navpills">
+            <li><a class="link link-active" href = '/'>Home</a></li>
+            <li><a class="link" href ='/'>Projects</a></li>
+            <li><a class="link" href ='/'>Blogs</a></li>
         </ul>
     </nav>
 
