@@ -3,12 +3,14 @@
 
  /* Define your theme color as a CSS variable and use it everywhere. 
  var(--name, value)*/
-.root {
+:root {
     --primary-color: #be185d;
+    --second-color: #2F2E40;
  }
 
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0px;
 }
 
 .container{
@@ -27,13 +29,13 @@ body{
 }
 .link-primary{
     padding: 0.5rem;
-    background-color: #1b1a1a;
+    background-color:var(--second-color);
     border-radius: 0.5rem;
-    color: #be185d;
+    color:var(--primary-color);
 }
 
 .link-secondary{
-    color: #be185d;
+    color:var(--primary-color);
 }
 
 hr{
@@ -59,7 +61,7 @@ hr{
     margin-bottom: 2rem;
 }
 .navigation{
-    background-color: #be185d;
+    background-color:var(--primary-color);
     margin: 1rem;
     border-bottom-left-radius: 2rem;        
 }
@@ -97,6 +99,38 @@ hr{
 .hero-text{
     text-align: center;
     font-weight: bold;
-    color: #2F2E40;
+    color:var(--second-color);
     font-size: x-large;
+}
+
+/* Section */
+.section{
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color: var(--second-color);
+    color: white;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: var(--second-color);
+    margin:auto;
+    padding: 1rem;
+}
+.footer-heading{
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+.foot-list{
+    text-align: center;
+}
+.footer .footer-list{
+    color:var(--primary-color);
+    text-decoration: none;
 }
