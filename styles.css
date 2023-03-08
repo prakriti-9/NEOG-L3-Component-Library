@@ -1,6 +1,11 @@
 /* 1st fix the typography : google fonts. fonts have diff weights */
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;1,200&display=swap');
 
+ body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 0px;
+}
+
  /* Define your theme color as a CSS variable and use it everywhere. 
  var(--name, value)*/
 :root {
@@ -8,11 +13,9 @@
     --second-color: #2F2E40;
  }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-}
-
+ .margin-md{
+    
+ }
 .container{
     padding-left: 1rem; padding-right: 1rem ;
 }
@@ -20,6 +23,10 @@ body{
 .container-centre{
     max-width:600px ;
     margin: auto;
+}
+
+h3{
+    margin-left: 3rem;
 }
 
 /* links */
@@ -45,14 +52,15 @@ hr{
 
 /* LIST-bullets */
 .no-bullets{
-    list-style: none
+    list-style: none;
+    margin-left: 3rem;
 }
 .inline{
     margin-right: 1.5rem;
     display: inline;
 }
 .reverse{
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 
